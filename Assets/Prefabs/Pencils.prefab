@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8056544897182312978}
   m_Layer: 0
   m_Name: Scoring
-  m_TagString: Untagged
+  m_TagString: Scoring
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 8056544897619208193}
   m_Layer: 0
   m_Name: Bottom_pencil
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 8056544898651525701}
   m_Layer: 0
   m_Name: Top_pencil
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -321,3 +321,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6b32bd5a5a795e41a42489225600143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  leftEdge: 0
