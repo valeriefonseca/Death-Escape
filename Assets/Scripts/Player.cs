@@ -25,6 +25,14 @@ public class Player : MonoBehaviour
         InvokeRepeating(nameof(AnimateSprite), 0.15f, 0.15f); // This will call our function AnimateSprite every 0.15 seconds 
     }
 
+    private void OnEnable()
+    {
+        Vector3 position = transform.position;
+        position.y = 0f;
+        transform.position = position;
+        direction = Vector3.zero;
+    }
+
     // Update is called once per frame
     private void Update()
     {
